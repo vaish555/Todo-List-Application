@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.dashboard-navbar{
+  width: 100lh;
+  height: 130px;
+  background-color: blue;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  padding-left: 100px;
+  gap: 650px;
+
+}
+.dashboard-navbar h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.dashboard-icon{
+    font-size: 30px;
+}
+
+.dashboard-menu{
+    margin-top: 30px;
+    position:relative;
+    top: 50px;
+    left: -1500px;
+    height: 500px;
+    width: 600px;
+    box-shadow: 0px 4px 10px rgb(108, 103, 103);
+    background-color: rgb(206, 248, 248);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+}
+.dashboard-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+     gap: 50px;
+}
+.dashboard-menu ul li{
+    font-weight: bold;
+    font-size: 25px;
+}
+.dashboard-menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.background-todolist{
+    border: 2px solid black;
+    width: 100lh;
+    height: 100vh;
+}
+.background-todolist img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.register-container{
+    /* border: 2px solid black; */
+    background-color: rgb(161, 213, 213);
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+.register-container h1{
+    text-align: center;
+    font-size: 40px;
+}
+.register-container input{
+    height: 60px;
+}
+.register-container button{
+    height: 70px;
+    width: 50%;
+   margin-left: 140px;
+   border-radius: 10px;
+   color: white;
+   background-color:red;
+}
